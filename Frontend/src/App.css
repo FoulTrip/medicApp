@@ -1,0 +1,113 @@
+main {
+  display: grid;
+  place-content: center;
+}
+
+.Box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  gap: 30px;
+  margin-top: 7em;
+  justify-content: space-between;
+}
+
+.subBoxOne {
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+  flex-basis: 500px;
+}
+
+.subBoxOne h1 {
+  width: 100%;
+  font-family: 'Pathway Extreme', sans-serif;
+  text-align: center;
+  color: #1717A6;
+  margin: 0;
+}
+
+.subBoxOne p {
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+}
+
+.cards_icons {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.card_icon {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card_icon p {
+  margin: 0;
+  display: grid;
+  place-content: center;
+  text-align: left;
+}
+
+.exerciseIcon {
+  width: 90px;
+  height: auto;
+}
+
+.meditationIcon {
+  width: 110px;
+  height: auto;
+}
+
+.injuredIcon {
+  width: 90px;
+  height: auto;
+}
+
+.subBoxTwo {
+  flex-basis: 500px;
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+}
+
+.iconBanner {
+  width: 100%;
+  height: auto;
+}
+
+.redireccion {
+  width: 100%;
+  margin-top: 10em;
+  display: grid;
+  place-content: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
+
+.button p {
+  margin-right: 2px;
+}
+
+.btn_direccion {
+  text-decoration: none;
+}
+
+.button i {
+  font-size: 25px;
+}
+
+.button p:hover {
+  margin-right: 10px;
+}
+
+/* color: #1717A6 */

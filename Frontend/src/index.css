@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@1,8..144,600&family=Roboto+Slab:wght@100&display=swap');
+
+body {
+  background-image: radial-gradient(circle at 56.43% 50%, #f4ffff 0, #e2ffff 16.67%, #cdfcf8 33.33%, #b5f2f2 50%, #9de8ee 66.67%, #85dfec 83.33%, #6ed6eb 100%);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1717A6;
+}

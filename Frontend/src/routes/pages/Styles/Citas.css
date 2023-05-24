@@ -1,0 +1,125 @@
+.MainForm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+}
+
+.MainForm h3 {
+    width: 100%;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin-top: 1em;
+}
+
+.MainForm p {
+    padding: 10px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.formulario {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 3em;
+}
+
+form {
+    flex-basis: 30%;
+    background: transparent;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+form p {
+    width: 100%;
+    text-align: center;
+}
+
+form input {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+form button {
+    background: green;
+    color: #fff;
+    font-family: 'Roboto Slab';
+    border: none;
+    border-radius: 5px;
+}
+
+.resultado {
+    flex-basis: 400px;
+    height: auto;
+    background: #232323;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.resultado p {
+    width: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.titleResult {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.datos {
+    height: auto;
+}
+
+.text {
+    /* gap: 5px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.text p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.imagenUser {
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.imagenUser img {
+    width: 100px;
+    height: auto;
+}
+
+.estado {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin-top: 2em;
+}
+
+.estado p {
+    margin: 0;
+}
+
+.tipo_cita {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1em;
+    color: black;
+}
