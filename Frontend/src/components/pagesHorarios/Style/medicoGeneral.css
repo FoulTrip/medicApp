@@ -1,0 +1,18 @@
+.horario {
+    width: 100%;
+    text-align: center;
+}
+
+.select {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boxSelect {
+    flex-grow: 1;
+    color: black;
+}

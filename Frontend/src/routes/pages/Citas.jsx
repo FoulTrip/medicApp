@@ -3,6 +3,7 @@ import './Styles/Citas.css'
 import Navigation from '../../components/Navigation'
 import Select from 'react-select';
 import { Toaster, toast } from 'sonner';
+import FilterCitas from '../../components/FilterCitas';
 
 const options = [
     { label: 'Medico General', value: 'Medico General' },
@@ -44,9 +45,9 @@ function Citas() {
     }
 
     const handleSelect = ({ value }) => {
-        console.log(value);
         setValueSelect(value)
     }
+
 
     return (
         <>
@@ -87,6 +88,7 @@ function Citas() {
                                 <div className="calendario">
                                     <div className="Box">
                                         <h3>{valueSelect}</h3>
+                                        <FilterCitas valueSelect={valueSelect} />
                                     </div>
                                 </div>
                             </div>

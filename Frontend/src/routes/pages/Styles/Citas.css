@@ -123,3 +123,8 @@ form button {
     margin-top: 1em;
     color: black;
 }
+
+.Box {
+    width: 100%;
+    margin: 0;
+}
