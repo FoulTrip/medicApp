@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Select from 'react-select';
 import { Toaster, toast } from 'sonner';
 import './Style/medicoGeneral.css'
@@ -37,6 +37,20 @@ function HorarioMedicoGeneral() {
     setHour(value)
   }
 
+  useEffect(() => {
+    fetch('')
+  })
+
+  const handleCita = () => {
+    fetch('http://localhost:9000/api/citas', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ nombre_paciente: "", fecha_cita: day,  hora_cita: hour, nombre_doctor: medic})
+    })
+  }
+
   return (
     <>
       <Toaster richColors />
@@ -56,6 +70,8 @@ function HorarioMedicoGeneral() {
             defaultValue={{ label: 'Elige la hora', value: 'enpty' }}
             onChange={hourSelect}
           />
+
+          <button onSubmit={handleCita}></button>
         </div>
       </div>
     </>

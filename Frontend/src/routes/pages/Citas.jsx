@@ -18,6 +18,7 @@ function Citas() {
     const [identif, setIdentif] = useState('');
     const [userInfo, setUserInfo] = useState('')
     const [valueSelect, setValueSelect] = useState('')
+    const [ nombreUsuario, setNombreUsuario ] = useState('')
 
     useEffect(() => {
         const fetchData = async () => {
